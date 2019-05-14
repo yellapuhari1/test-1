@@ -31,12 +31,3 @@ RUN chown -R node:node /home/node
 USER node
 
 CMD ["serve", "-s", "/home/node/app"]
-
-
-
-
-
-
-
-
-
